@@ -4,6 +4,7 @@
   "description": "## Project setup ``` npm install ```",
   "main": "index.js",
   "scripts": {
+    
     "start": "concurrently \"cd client && npm run serve\" \"cd server && node server.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

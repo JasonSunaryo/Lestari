@@ -74,6 +74,8 @@ app.use('/api/orders', orderRoutes);
 app.use('/uploads', express.static('uploads'));
 app.use('/api/products', require('./routes/product'));
 
+
+
 // MongoDB Connection
 mongoose
   .connect(process.env.MONGO_URI)
